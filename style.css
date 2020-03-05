@@ -1,1 +1,35 @@
 
+.title{
+text-align: center;
+font-size: 40px;
+background-color: red;
+color: black;
+}
+.btn{
+    background-color: red;
+    margin-top: 4px;
+}
+ul{
+    list-style: none;
+}
+.uv-index{
+  width: fit-content;
+    height: fit-content;
+
+}
+.card{
+    margin: 2px;
+    justify-content: center;
+    border: solid black;
+    text-align: center;
+    justify-content: baseline;
+    
+    
+}
+.hello{
+    height: 100%;
+}
+
+.hello2{
+    height: 100%;
+}
