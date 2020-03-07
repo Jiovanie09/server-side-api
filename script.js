@@ -10,7 +10,7 @@ $(".btn").on("click", function (event) {
         $("#error").html("Field cannot be empty")
             ;
     }
-    var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + userInput + "&appid=0d145117c52b8dbda4e66cffe6d9511d&units=imperial";
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + userInput + "&appid=0d145117c52b8dbda4e66cffe6d9511d&units=imperial";
 
     $.ajax({
         url: queryURL,
@@ -25,7 +25,7 @@ $(".btn").on("click", function (event) {
         $(".uv-index").attr("src", image);
         
     });
-    var fiveDayQueryURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + userInput + "&appid=0d145117c52b8dbda4e66cffe6d9511d&units=imperial&cnt=5";
+    var fiveDayQueryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + userInput + "&appid=0d145117c52b8dbda4e66cffe6d9511d&units=imperial&cnt=5";
     $.ajax({
         url: fiveDayQueryURL,
         method: "GET"
